@@ -8,6 +8,8 @@ public class Google {
  
 public static void main(String[] args) {
  
+	String a=10;
+	
 System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
  
 // Initialize browser
@@ -29,7 +31,7 @@ try {
 	e.printStackTrace();
 }
  
-
+System.out.println("tc passed"+a);
 driver.quit();
 }
  
